@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #EDF2C5;
+    overflow-y:scroll;
+}
+
+body{
+    margin: 0;
+    font-family:Arial;
+    font-size:87%;
+}
+
+.container {
+    display:block; width:940px; margin:0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+div.wrapper{display:block; width:100%; margin:0; padding:0;}
+
+.row1{color:#778A50; background-color:#EDF2C5;height: 103px;}
+.row2{color:#EDF2C5; background-color:#778A50;height: 44px;border-radius: 3px}
+.row3{color:#778A50; background-color:#EDF2C5;}
+.row4{color:#EDF2C5; background-color:#778A50;}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.box{
+    color:#EDF2C5; 
+    background-color:#778A50;
+    height: 45px;
+    width: 445px;
+    border-radius: 3px
+}
+
+.header {
+    font-family:"Arial Black";
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main-title {
+    height: 42px;
+    width: 271px;
+    font-size: 44px;
+    float: left;
+    padding-top: 53px;
+    padding-bottom: 8px;
+    line-height:30px;
+}
+
+.right-part {
+    display: flex;
+}
+div.social-media ul li a {
+    vertical-align: middle;
+}
+.nav {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-align: center;
+}
+.links{
+    display: flex;
+    margin: 0;
+    margin: 61px 0 17px 0;
+    justify-content: flex-start;
+    text-align: center;
+}
+.social-media ul li{
+    margin-right: 10px;
+    width: auto;
+}
+.account ul li{
+    margin-left: 10px;
+    width: auto;
+}
+.login::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.login{
+    border-style: solid;
+    border-radius: 3px;
+    height:25px;
+    width: 60px;
+    border-width: 1px;
+    border-color: #778A50;
+    color: #778A50;
+    background-color: #EDF2C5;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 14px;
+    line-height:25px;
+}
+.login:hover{
+    color:#EDF2C5;
+    background-color: #778A50;
+    border:1px #EDF2C5 solid;
+  }
+.line{
+    background-color: #778A50;
+    width: 1px;
+    margin: 61px 0 17px 0;
+
+}
+.join::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.join{
+    border-style: solid;
+    border-radius: 3px;
+    height:25px;
+    width: 50px;
+    border-width: 1px 1px 1px 1px;
+    border-color: #778A50;
+    color: #778A50;
+    background-color: #EDF2C5;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 14px;
+    line-height:25px;
+}
+.join:hover{
+    color:#EDF2C5;
+    background-color: #778A50;
+    border:1px #EDF2C5 solid;
+  }
+.menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    justify-content: flex-start;
+    text-align: center;
+}
+.menu li::before{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.menu li{
+    height: 100%;
+    padding: 0 30px;
+    float: left;
+    font-family:"Arial Black";
+    font-size: 16px;
+}
+.menu li a{
+    color: #EDF2C5;
+    vertical-align: middle;
+}
+.menu li a:hover{
+    color:#FFF;
+  }
+.main-image {
+    padding: 20px 0 30px 0;
+    
+}
+.part-two{
+    display: flex;
+    justify-content: space-between;
+}
+.part-two article{
+    display: flex;
+    flex-direction: column;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 35px 0;
+}
+
+.text-box{
+    color:#7D7D7D; 
+    background-color:#F7F8DA;
+    height: 140px;
+    width: 445px;
+    border-radius: 3px;
+    margin: 15px 0 35px 0;
+}
+.text-part1{
+    padding: 15px 15px 15px 15px;
+    font-size: 12px;
+    font-weight: regular;
+    line-height: 1.33;
+}
+.hr-line{
+    height: 1px;
+    margin: 0px 15px;
+    background-color: #7D7D7D; 
+}
+.text-part2{
+    padding: 11px 15px 16px 15px;
+    font-size: 12px;
+    font-weight: regular;
+    line-height: 1.83;
+}
+.title1{
+    padding: 15px 30px 15px;
+    font-size: 16px;
+    font-family:"Arial Black";
+    line-height: 0.8;
+}
+.title2{
+    padding: 17px 30px 16px;
+    font-size: 16px;
+    font-family:"Arial Black";
+    line-height: 0.7;
+}
+
+footer{
+    height: 60px;
+    text-align: center;
+    padding:24px 0 25px 0;
+    font-size: 12px;
+    font-weight: regular;
+}
